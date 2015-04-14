@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1B317A11994CCA70027DE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B317A01994CCA70027DE53 /* AppDelegate.swift */; };
-		D1B317A31994CCA70027DE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B317A21994CCA70027DE53 /* ViewController.swift */; };
+		D1B317A31994CCA70027DE53 /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B317A21994CCA70027DE53 /* PaletteViewController.swift */; };
 		D1B317A61994CCA70027DE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B317A41994CCA70027DE53 /* Main.storyboard */; };
 		D1B317A81994CCA70027DE53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B317A71994CCA70027DE53 /* Images.xcassets */; };
 		D1B317B41994CCA70027DE53 /* PaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B317B31994CCA70027DE53 /* PaletteTests.swift */; };
@@ -29,7 +29,7 @@
 		D1B3179B1994CCA70027DE53 /* Palette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B3179F1994CCA70027DE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1B317A01994CCA70027DE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1B317A21994CCA70027DE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1B317A21994CCA70027DE53 /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
 		D1B317A51994CCA70027DE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1B317A71994CCA70027DE53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1B317AD1994CCA70027DE53 /* PaletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				D1B317A01994CCA70027DE53 /* AppDelegate.swift */,
-				D1B317A21994CCA70027DE53 /* ViewController.swift */,
+				D1B317A21994CCA70027DE53 /* PaletteViewController.swift */,
 				D1B317A41994CCA70027DE53 /* Main.storyboard */,
 				D1B317A71994CCA70027DE53 /* Images.xcassets */,
 				D1B3179E1994CCA70027DE53 /* Supporting Files */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B317A31994CCA70027DE53 /* ViewController.swift in Sources */,
+				D1B317A31994CCA70027DE53 /* PaletteViewController.swift in Sources */,
 				D1B317A11994CCA70027DE53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

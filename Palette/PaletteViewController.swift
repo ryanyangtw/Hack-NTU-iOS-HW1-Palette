@@ -27,11 +27,12 @@ class PaletteViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     
+    
     if let colorHash = defaults.dictionaryForKey(ColorInfo.DefaultKey) as? [String: Float] {
-      //if let red = colorHash["red"], green = colorHash["green"], blue = colorHash["blue"] {
-      initSliderValue(red: colorHash["red"]! , green: colorHash["green"]!, blue: colorHash["blue"]!)
-      updateBackgroundColor(red: colorHash["red"]! , green: colorHash["green"]!, blue: colorHash["blue"]!)
-      //}
+      if let red = colorHash["red"], green = colorHash["green"], blue = colorHash["blue"] {
+        initSliderValue(red: red , green: green, blue: blue)
+        updateBackgroundColor(red: red , green: green, blue: blue)
+      }
     }
   }
 
